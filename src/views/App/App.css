@@ -1,0 +1,12 @@
+.App {
+	width: 100%;
+	min-height: 100vh;
+    text-align: center;
+    @apply bg-green-500 flex items-center justify-center;
+
+    &-inner {
+        @apply bg-gray-900 text-white p-4;
+    }
+    
+	
+}
